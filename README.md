@@ -24,27 +24,21 @@ To run FlaskNotes on your local machine, follow these steps:
 1. Clone this repository to your local environment:
 
 ```bash
-git clone https://github.com/yourusername/FlaskNotes.git
+git clone git@github.com:ibraheem-areeda/FlaskNotes.git
 ```
 
 2. Create a virtual environment (optional but recommended):
 
-```bash
-python -m venv venv
+```macOS and Linux
+python -m venv .venv
 ```
 
 3. Activate the virtual environment:
 
-On Windows:
-
-```bash
-venv\Scripts\activate
-```
-
 On macOS and Linux:
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 4. Install the required dependencies:
@@ -84,17 +78,6 @@ Your FlaskNotes application should now be accessible at `http://localhost:5000` 
 2. Start creating and managing your notes by adding, editing, and categorizing them.
 3. Enjoy using FlaskNotes to keep your notes organized.
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name` or `git checkout -b bugfix/your-bug-fix`.
-3. Make your changes and test them thoroughly.
-4. Commit your changes with a descriptive commit message.
-5. Push your branch to your fork: `git push origin feature/your-feature-name`.
-6. Create a pull request against the main repository.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -104,4 +87,3 @@ This project is licensed under the [MIT License](LICENSE).
 Feel free to reach out if you have any questions or suggestions. Happy note-taking with FlaskNotes!
 ```
 
-You can copy and paste this content directly into your GitHub repository's README.md file.
