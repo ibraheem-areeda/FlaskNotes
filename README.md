@@ -2,17 +2,9 @@
 
 FlaskNotes is a simple note-taking web application built using the Flask framework. It allows users to create, edit, and organize their notes easily. Whether you need a quick place to jot down your thoughts or keep organized to-do lists, FlaskNotes has you covered.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Create, edit, and delete notes.
-- Organize notes into categories or tags.
 - User authentication for secure access to your notes.
 - Responsive design for use on various devices.
 - A simple and intuitive user interface.
@@ -47,27 +39,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Create a `.env` file in the root directory of the project to store your environment variables. You can copy the example `.env.example` file provided and update it with your own settings:
-
-```plaintext
-FLASK_APP=app
-FLASK_ENV=development
-SECRET_KEY=your_secret_key
-DATABASE_URI=your_database_uri
-```
-
-6. Initialize the database:
-
-```bash
-flask db init
-flask db migrate
-flask db upgrade
-```
-
 7. Start the Flask application:
 
 ```bash
-flask run
+python main.py
 ```
 
 Your FlaskNotes application should now be accessible at `http://localhost:5000` in your web browser.
